@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me - Desmond</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css " />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .contact-icon {
+      font-size: 1.5rem;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    .social-link:hover {
+      transform: scale(1.05);
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #0d6efd;
+    }
+
+    .btn-custom {
+      background-color: #1a1a40;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1a40;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Desmond Aloo Owiso</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-2" href="resume/your-resume.pdf" download>Download CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-4">Get In Touch</h2>
+
+          <!-- Social Links -->
+          <div class="mb-4">
+            <p><strong>Find me on:</strong></p>
+            <a href="mailto:youremail@gmail.com" class="social-link text-decoration-none">
+              <i class="fas fa-envelope contact-icon"></i>
+              <span>desmondowiso@gmail.com</span>
+            </a><br>
+            <a href="www.linkedin.com/in/desmond-owiso-792590b8 " target="_blank" class="social-link text-decoration-none">
+              <i class="fab fa-linkedin contact-icon"></i>
+              <span>LinkedIn Profile</span>
+            </a><br>
+            <a href="https://github.com/Aloodesmond/Aloodesmond.git " target="_blank" class="social-link text-decoration-none">
+              <i class="fab fa-github contact-icon"></i>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+
+          <!-- Contact Form -->
+          <p><strong>Or send me a message:</strong></p>
+          <form action="https://formspree.io/f/xnndybpb" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom px-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-4 mt-5" style="background-color: #1a1a40;">
+    <div class="container">
+      <p class="mb-0">&copy;  Des@dev.  All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap @5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  min-height: 75vh;
+}
+
+.profile-pic {
+  border: 20px solid #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+.navbar-nav .nav-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* or choose your preferred font */
+  font-size: 1.1rem; /* increase size from default */
+  font-weight: 500;  /* makes it a bit bolder for better readability */
+  color: #ffffff;    /* ensures text remains visible on dark background */
+  transition: color 0.3s ease; /* smooth hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00bfff; /* change this color to match your design (light blue as an example) */
+}
+
+/* --- About Section Styling --- */
+
+/* Increase overall font size inside the about section */
+.about-section p {
+  font-size: 2rem; /* Adjust as needed */
+  line-height: 2.2;
+}
+
+/* Make headings bigger */
+.about-section h2 {
+  font-size: 2.5rem;
+}
+
+.about-section h3,
+.about-section h4 {
+  font-size: 1.5rem;
+}
+
+/* Add more padding to the whole about section */
+.about-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* --- Experience Section Styling --- */
+
+.experience-card h4 {
+  font-size: 1.3rem;
+}
+
+.experience-card ul {
+  font-size: 0.95rem;
+  padding-left: 1.2rem;
+}
+
+.experience-card li {
+  margin-bottom: 0.5rem;
+}
+
+
